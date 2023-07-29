@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #423d3b;
+    background-color:#000000;
     overflow-y: auto;
 }
 
@@ -14,10 +14,10 @@ body {
     position      : absolute;
     top           : 350px;
     left          : 50%;
-    padding       : 20px;
+    padding       : 10px;
     width         : 1000px;
     transform     : translate(-50%, -50%);
-    background    : rgba(255, 255, 255, 0.1);
+    background-image: linear-gradient(to right, rgb(193, 193, 245), rgb(9, 49, 129));
     border-radius : 20px;
     display       : flex;
     flex-direction: column;
@@ -181,7 +181,7 @@ body {
     position        : relative;
     width           : 50px;
     height          : 60px;
-    background-color: #FFFFFA;
+    background-color: #fffff5;
     text-align      : center;
     font-family     : Oswald, sans-serif;
     font-size       : 10pt;
