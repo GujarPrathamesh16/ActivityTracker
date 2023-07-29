@@ -13,7 +13,6 @@
     "url": "git+https://github.com/GujarPrathamesh16/ActivityTracker.git"
   },
   "author": "Gujar",
-  "license": "ISC",
   "homepage": "https://github.com/GujarPrathamesh16/ActivityTracker.git#readme",
   "dependencies": {
     "connect-flash": "^0.1.1",
