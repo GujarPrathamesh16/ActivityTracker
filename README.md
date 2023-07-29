@@ -1,5 +1,7 @@
-# Habit Tracker App
-> A habit tracking app that will help you to create and maintain an awesome daily and weekly routine, which is one of the most powerful tools for achieving your goals and sending your life into an upwards spiral.
+# Activity Tracker App
+> A web application to track daily and weekly activities, An improved TO-DO with daily and weekly track of
+activities and generates a notification through emails, made using Express, Node and MongoDB.
+
 
 ![Screenshot (283)](https://user-images.githubusercontent.com/49118089/88487258-13f92200-cfa1-11ea-8ea0-4528517900e1.png)
 
@@ -19,7 +21,7 @@
 
 ##### Clone the latest Repository
 
-`git clone https://github.com/rahulsups/habit-tracker.git`
+`git@github.com:GujarPrathamesh16/ActivityTracker.git`
 
 ##### Into the project directory
 
