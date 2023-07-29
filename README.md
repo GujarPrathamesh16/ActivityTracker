@@ -3,7 +3,7 @@
 activities and generates a notification through emails, made using Express, Node and MongoDB.
 
 
-![Screenshot (283)](https://ibb.co/PMDNqhy)
+![Screenshot (283)](https://imgur.com/a/GBgyb4b)
 
 ## Technologies Used
 1.  NodeJS
