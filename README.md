@@ -3,7 +3,7 @@
 activities and generates a notification through emails, made using Express, Node and MongoDB.
 
 
-![Screenshot (283)](https://imgur.com/a/GBgyb4b)
+![Screenshot (283)](<blockquote class="imgur-embed-pub" lang="en" data-id="a/GBgyb4b"  ><a href="//imgur.com/a/GBgyb4b">Activity Tracker Dashboard</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 
 ## Technologies Used
 1.  NodeJS
