@@ -1,19 +1,22 @@
-
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const session = require('express-session');
 const nodemailer = require('nodemailer');
+// const connectDB = require('./server/db');
 
 const app = express();
 
-const db = 'mongodb+srv://saurabh2:12345@cluster0.m1mhbxh.mongodb.net/?retryWrites=true&w=majority'
+const db = 'mongodb+srv://shanugujar007:0ZBtR3CJHUfNUwMi@activity-tracker.yoz3wxs.mongodb.net/';
 
 
 mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log("Connected to MongoDB successfully!"))
     .catch(err => console.log(err));
+
+
+// connectDB();
 
 
 app.use(expressLayouts);
@@ -49,5 +52,5 @@ app.use('/users', require('./routes/users'));
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, console.log(`Server started on port  ${PORT}`));
+app.listen(PORT, console.log(`Server started on port ${PORT}`));
 
